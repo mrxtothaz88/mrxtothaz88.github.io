@@ -1,0 +1,123 @@
+main {
+  width: 800px;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  font-family: 'Abril Fatface', cursive;
+  color: #222;
+  background-image: url("https://raw.githubusercontent.com/green-fox-academy/myfirstapp-syllabus/master/assets/first-website-header.png");
+  background-size: contain;
+  width: 100%;
+  height: 240px;
+  margin-top: 0;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+h3 {
+  margin-left: 180px;
+  margin-bottom: 0;
+}
+
+h1 {
+  margin-left: 180px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 40px;
+ }
+
+.intro, .content {
+  width: 470px;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.intro p {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #222;
+  font-size: 11px;
+  line-height: 15px;
+  padding: 20px;
+  margin: 0;
+}
+
+ul {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #222;
+  list-style-type: square;
+  font-size: 11px;
+  line-height: 15px;
+  margin: 10px 0px 10px 0px;
+}
+
+blockquote {
+  width: 470px;
+  height: 100px;
+  background-color: #444;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 25px;
+  line-height: 30px;
+}
+
+blockquote::before {
+  content: '\201C';
+  color: white;
+  font-family: 'Abril Fatface';
+  font-size: 70px;
+  position: relative;
+  top: -20px;
+  left: 0;
+}
+
+.content .head {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #222;
+  text-transform: uppercase;
+  margin: 10px 0px 0px 0px;
+  padding: 20px;
+}
+
+.content .head_sub {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #222;
+  font-size: 15px;
+  margin: 20px 0px 0px 0px;
+  padding: 0px 20px 0px 20px;
+}
+
+.content p {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #222;
+  font-size: 11px;
+  line-height: 15px;
+  padding: 20px;
+  margin: 0;
+}
+
+.content .subtitle {
+  font-family: 'Merriweather', serif;
+  margin: 0px 0px 10px 0px;
+  padding: 0px 20px 0px 20px;
+}
+
+.line {
+  border-top: 3px solid black;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
